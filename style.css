@@ -1,0 +1,41 @@
+#navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position:center;
+    margin: auto;
+    
+}
+.navigationBar {
+   display:inline;
+   height: 80px;
+   font-size: 30px;
+   background-color: gray;
+   border-color:black;
+   border-radius: 5px;
+   float:center;
+   
+}
+
+#socialMedia {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    background-color: #ADD8E6;
+    width: 100px;
+    height: px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+
+#raceInfo {
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    position: center;
+    background-color:blue;
+    text-size: 50px;
+}
