@@ -1,20 +1,39 @@
 #navBar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position:center;
-    margin: auto;
+    margin: 0px;
+    padding 0px;
+    display: inline-block;
+}
+
+.blocks {
+    float:left;
+    border-radius: 10px;
+    font-size: 25px;
     
 }
-.navigationBar {
-   display:inline;
-   height: 80px;
-   font-size: 30px;
-   background-color: gray;
-   border-color:black;
-   border-radius: 5px;
-   float:center;
-   
+
+
+#eventHome {
+    background-color: #96ceb4;
+    padding: 10px;
+}
+
+#fiveK {
+    background-color: #ffeead;
+    padding: 10px;
+}
+
+#halfMarathon {
+    background-color: #88d8b0;
+    padding: 10px;
+}
+
+#marathon {
+    background-color:#ffcc5c;
+    padding: 10px;
+}
+a {
+    padding: 10px;
 }
 
 #socialMedia {
@@ -22,20 +41,17 @@
     margin: 20px;
     padding: 0;
     background-color: #ADD8E6;
-    width: 100px;
     height: px;
     border-radius: 5px;
     font-size: 25px;
 }
 
 
+
 #raceInfo {
-    width: 80%;
+    width: 90%;
     height: 300px;
     border-radius: 10px;
     margin: auto;
-    margin-top: 20px;
-    position: center;
-    background-color:blue;
-    text-size: 50px;
+    background-color:lightblue;
 }
