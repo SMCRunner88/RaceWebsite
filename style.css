@@ -1,26 +1,58 @@
-#navBar {
-    list-style-type: none;
-    margin: 0px;
-    padding 0px;
-    display: inline-block;
+/*-----General-----*/
+
+ul {
+  list-style-type: none;
 }
 
-.blocks {
+/*-----Links-----*/
+a {
+    text-decoration: none;
+}
+
+#navBar a {
+  color: black;
+}
+
+a:hover {
+  color: #32673f;
+  text-decoration: underline
+}
+
+nav a.selected {
+  color: white;
+}
+
+
+/*-----Navigation Bar-----*/
+#navBar {
+    width: 100%;
+    height: 80px;
+    background-color: #363636;
+    border-bottom: black solid 5px;
+    border-radius: 2px;
+}
+
+#eventHome,
+#fiveK,
+#halfMarathon,
+#marathon {
     float:left;
     border-radius: 10px;
     font-size: 25px;
-    
+    list-style-type: none;
+    margin: 15px 30px;
+    text-align: center;
 }
 
-
 #eventHome {
-    background-color: #96ceb4;
     padding: 10px;
+    background-color: tomato;
 }
 
 #fiveK {
-    background-color: #ffeead;
+    background-color: #D2BA5E;
     padding: 10px;
+    width: 75px;
 }
 
 #halfMarathon {
@@ -32,26 +64,51 @@
     background-color:#ffcc5c;
     padding: 10px;
 }
-a {
-    padding: 10px;
+
+
+/*-----Body-----*/
+h1 { font-family: Merriweather; 
+     font-weight: 600;
+     padding-top: 10px;
+     padding-left: 10px;
+     color: white;
 }
 
-#socialMedia {
-    list-style-type: none;
-    margin: 20px;
-    padding: 0;
-    background-color: #ADD8E6;
-    height: px;
-    border-radius: 5px;
-    font-size: 25px;
+p {
+    color: white;
+    font-size: 20px;
+    font-family: Merriweather;
+    margin: 10px;
 }
-
-
+ul {
+  color: white;
+  font-size: 20px;
+  font-family: Merriweather;
+  font-weight: bold;
+}
 
 #raceInfo {
-    width: 90%;
-    height: 300px;
+    width: 100%;
+    height: 500px;
     border-radius: 10px;
     margin: auto;
-    background-color:lightblue;
+    background:url('http://goo.gl/DQxfuf') no-repeat center;
+    box-shadow: 10px 15px 10px;
 }
+
+/*-----Footer-----*/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+/*-----Media Queries-----*/
